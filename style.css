@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*==========
+common
+==============*/
+body{margin:0 auto;font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, "sans-serif";font-size:16px;line-height:1.6;color:#333333;text-align:center;background:url("../images/bg.webp") bottom no-repeat;background-size:contain;/*background-attachment:fixed;*/}
+div#wrap{margin:0 auto;width:1070px;display:flex;justify-content: space-between;}
+/*any*/
+.f_size20{font-size:18px;font-weight: bold;text-align:left;color:#555555;}
+.square_deco{border-left:15px solid #DDDDDD;}
+.color_red{color: #a00707;}
+/*pagrtop*/
+html {scroll-behavior:smooth;}
+.pagetop {align-items:center;background-color:#353535;border-radius:30px;height:50px;width:50px;right:30px;bottom:30px;position:fixed;
+display: flex;justify-content: center;z-index: 2;}
+.top_arrow {background-color:#353535; border-top:3px solid #FFF;border-right:3px solid #FFF;height:10px;width:10px;transform:translateY(20%) rotate(-45deg);}
+
+/*.pagetop {font-size:11px;line-height:1.6; align-items:center;background-color:#DDDDDD;border-radius:15px;height:80px;width:70px;right:30px;bottom:30px;position:fixed;display:flex;justify-content: center;z-index:2;}*/
+
+/*==========
+header
+==============*/
+header{margin:0 auto;width: 1070px;}
+/*global-nav*/
+header nav.global-nav{margin:0 auto;padding:20px 0;}
+header nav.global-nav ul{display: flex;justify-content:center;}
+header nav.global-nav ul li{width:150px;}
+header nav.global-nav ul li a{color: #333;}
+header nav.global-nav ul li a:hover{padding:6px 10px;background-color:#aaaaaa;color:#FFFFFF;border-radius:5px;}
+/*title*/
+header h1{padding-right:10px; background-image: url(/images/titlebg.webp);width:1070px;height:285px;text-align: right;box-shadow:2px 2px 2px #000;}
+header h1 span.company{margin-right:30px; font-family: 'Norican', cursive;padding-top:130px; color:#FFFFFF;font-size:88px;font-weight:bold;line-height:60px;font-style:italic;display:block;text-shadow:3px 2px #000;}
+header h1 span.font_s{font-size:40px;}
+header h1 img{margin-top:150px; padding-right:30px;}
+/*page-nav*/
+header nav.page_nav{margin:0 auto;}
+header nav.page_nav ul{margin-top:4px; display:flex;justify-content:space-between;}
+header nav.page_nav ul li{margin-left:2px;}
+header nav.page_nav ul li a{padding:20px 0; width:534px;color:#FFFFFF;font-weight: bold;font-size:18px;padding:10px 0;background:#3c3c3c;display:block;}
+header nav.page_nav ul li a:hover{opacity: .7;}
+/*==========
+side-bar
+==============*/
+aside{padding:20px 0 0 0; background:#FFFFFF;width:310px;}
+/*banner*/
+aside img:hover{opacity:.6;}
+ul#side_banner{margin-top:20px;padding:0 20px;text-align: left;;}
+ul#side_banner li{margin-bottom:15px;}
+/*side-link*/
+aside nav#side-link{margin:25px auto;padding:3px;background:#3c3c3c;width:270px;}
+aside nav#side-link h3{padding:10px 0 7px 0;color:#FFFFFF;font-weight:bold;}
+aside nav#side-link ul{padding:10px 0;text-align:left;background:#FFF;list-style:square;}
+aside nav#side-link ul li{margin-bottom:7px;margin-right:10px; margin-left:30px;font-size:15px;line-height:1.4;}
+aside nav#side-link ul li a:link{color: #165df7;}
+aside nav#side-link ul li a:visited{color: #a42df3;}
+aside nav#side-link ul li a:active,aside nav#side-link ul li a:hover{color:#940606;}
+/*Calendar*/
+aside #Calendar{margin:auto;text-align: center;width:270px;}
+aside #Calendar h2{padding-left: 5px;}
+aside #Calendar caption{margin-bottom:8px;text-align:center;font-size:90%;}
+aside #Calendar table,aside #Calendar table th,aside #Calendar table td{border:1px solid #5a5a5a;}
+aside #Calendar table{width:270px;}
+aside #Calendar table th{padding:2px 0;background:#EEEEEE;text-align:center;}
+/*aside #Calendar table tr:first-child{background-color:#EEEEEE;}*/
+aside #Calendar table th,aside #Calendar table td{padding:3px 0 0px;}
+/*==========
+main
+==============*/
+main{background:#FFFFFF;width:740px;}
+main section{margin:20px 20px 50px 20px;width:700px;}
+main section h2{margin-bottom:1em;padding-left:5px;}
+main section h3{text-align:left;text-indent:2em;font-weight:bold;text-decoration:underline;margin-bottom:.8em;}
+main section p{margin:1.5em;text-align:left;}
+main section h3::before{content:"■";}
+/*#whats_new*/
+main section#whats_new dl{margin:0 30px;line-height:1.45; width:670px; display:flex;flex-wrap:wrap;}
+main section#whats_new dl dt{padding:6px 0 5px 0;line-height:1.8;text-align:left;font-size:14px;font-weight: normal;width:130px;border-bottom: 1px dotted #BBBBBB;}
+main section#whats_new dl dd{padding-top:5px; line-height: 1.8;font-size:15px;text-align:left;width:510px;border-bottom: 1px dotted #BBBBBB;}
+main section#whats_new dl dd a{display:inline-block;}
+main section#whats_new dl dd a:link{color: #165df7;}
+main section#whats_new dl dd a:visited{color: #a42df3;}
+main section#whats_new dl dd a:active,main section#whats_new dl dd a:hover{color:#940606;border-top:1px solid;border-bottom:1px solid;}
+/*ompany_info*/
+main section#company_info{text-align:center;}
+main section#company_info img{text-align: center;}
+/*news_release*/
+main section#news_release{text-align:center;}
+main section#news_release ul{margin:40px auto; width: 620px; display:flex;justify-content: space-between;}
+main section#news_release ul li{width: 200px;}
+/*==========
+footer
+==============*/
+footer{margin:0 auto;padding:50px 0;background: #5a5656;color:#FFFFFF;width:1070px;}
