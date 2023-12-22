@@ -45,7 +45,7 @@ side-bar
 aside{padding:20px 0 0 0; background:#FFFFFF;width:310px;}
 /*banner*/
 aside img:hover{opacity:.6;}
-ul#side_banner{margin-top:20px;padding:0 20px;text-align: left;;}
+ul#side_banner{margin-top:20px;padding:0 20px;text-align: left;}
 ul#side_banner li{margin-bottom:15px;}
 /*side-link*/
 aside nav#side-link{margin:25px auto;padding:3px;background:#3c3c3c;width:270px;}
