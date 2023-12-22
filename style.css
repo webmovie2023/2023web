@@ -77,7 +77,6 @@ main section h3::before{content:"■";}
 main section#whats_new dl{margin:0 30px;line-height:1.45; width:670px; display:flex;flex-wrap:wrap;}
 main section#whats_new dl dt{padding:6px 0 5px 0;line-height:1.8;text-align:left;font-size:14px;font-weight: normal;width:130px;border-bottom: 1px dotted #BBBBBB;}
 main section#whats_new dl dd{padding-top:5px; line-height: 1.8;font-size:15px;text-align:left;width:510px;border-bottom: 1px dotted #BBBBBB;}
-main section#whats_new dl dd a{display:inline-block;}
 main section#whats_new dl dd a:link{color: #165df7;}
 main section#whats_new dl dd a:visited{color: #a42df3;}
 main section#whats_new dl dd a:active,main section#whats_new dl dd a:hover{color:#940606;border-top:1px solid;border-bottom:1px solid;}
